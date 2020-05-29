@@ -11,7 +11,7 @@ os.mkdir(youtuber)
 print()
 channel_id_here = input("Channel ID =")
 api_key = "AIzaSyCingHnG2DYG3IjMRPq52YueO95dpUtoUM"
-urlData =  f"https://www.googleapis.com/youtube/v3/search?key={api_key}&channelId={channel_id_here}&part=snippet,id&order=date&maxResults=20"
+urlData =  f"https://www.googleapis.com/youtube/v3/search?part=id%2Csnippet&maxResults=100&channelId={channel_id_here}&key={api_key}"
 webURL = urllib.request.urlopen(urlData)
 data = webURL.read()
 encoding = webURL.info().get_content_charset('utf-8')
