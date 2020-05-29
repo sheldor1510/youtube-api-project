@@ -10,7 +10,7 @@ youtuber = input('Write the name of the youtuber:')
 os.mkdir(youtuber) 
 print()
 channel_id_here = input("Channel ID =")
-api_key = "AIzaSyCingHnG2DYG3IjMRPq52YueO95dpUtoUM"
+api_key = "< API KEY >"
 urlData =  f"https://www.googleapis.com/youtube/v3/search?key={api_key}&channelId={channel_id_here}&part=snippet,id&order=date&maxResults=20"
 webURL = urllib.request.urlopen(urlData)
 data = webURL.read()
