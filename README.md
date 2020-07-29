@@ -25,3 +25,4 @@ Uses the youtube data api to download thumbnails of youtubers.
   - Let it run for few seconds
   - Voila!! You have a folder with the name of the youtuber you entered in which <br>the thumbnails of his recent videos are there are there
  
+<!--tech.shell--!>
